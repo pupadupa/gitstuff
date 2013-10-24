@@ -25,3 +25,8 @@ vim ~/.gitconfig
     tool = vimdiff
 [merge]
     tool = vimdiff
+    
+#git commands
+forced pull:
+git fetch --all
+git reset --hard origin/master
