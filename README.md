@@ -1,3 +1,15 @@
+###gitignore
+```
+__pycache__
+.env
+
+**/.DS_Store
+ssl/
+node_modules/
+
+tmp/*
+```
+
 
 ###difftool
 `git difftool --tool=vimdiff --no-prompt`
